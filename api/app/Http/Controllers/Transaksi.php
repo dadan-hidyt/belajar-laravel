@@ -107,7 +107,7 @@ class Transaksi extends Controller
         try {
             $transaksi = Transaksi2::where('id',$id)->update($request->all());
             $response = [
-                'message'=>'Tambahkan data update',
+                'message'=>'Update data',
                 'data' => $transaksi,
             ];
             return \response()->json($response, Response::HTTP_CREATED);
