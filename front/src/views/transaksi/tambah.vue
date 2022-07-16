@@ -32,7 +32,7 @@
           <span v-if="error.type">{{error.type[0]}}</span>
         </div>
         <div class="mt-3">
-          <button class="btn btn-primary">tambah</button>
+          <button class="btn btn-success">tambah</button>
         </div>
       </div>
     </form>
