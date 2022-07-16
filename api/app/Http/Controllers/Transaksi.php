@@ -53,7 +53,7 @@ class Transaksi extends Controller
         try {
             $transaksi = Transaksi2::create($request->all());
             $response = [
-                'message'=>'Tambahkan data update',
+                'message'=>'Tambah data',
                 'data' => $transaksi,
             ];
             return \response()->json($response, Response::HTTP_CREATED);
